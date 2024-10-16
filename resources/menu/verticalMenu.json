@@ -1,0 +1,86 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "1"
+      ],
+      "submenu": [
+        {
+          "url": "dashboard/analytics",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "Aadhar Authentication",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "aadhar-authentication",
+      "submenu": [
+        {
+          "url": "pages/aadhar-authentication-validation",
+          "name": "Validations",
+          "slug": "pages-aadhar-authentication-validation"
+        },
+        {
+          "url": "pages/aadhar_report_page",
+          "name": "Report",
+          "slug": "pages-aadhar_report_page"
+        }
+      ]
+    },
+    {
+      "name": "Pan Validations",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings1",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account1",
+          "slug": "pages-account-settings-account1"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications1",
+          "slug": "pages-account-settings-notifications1"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections1",
+          "slug": "pages-account-settings-connections1"
+        }
+      ]
+    },
+    {
+      "name": "Penny Droping",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings2",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account2",
+          "slug": "pages-account-settings-account2"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications2",
+          "slug": "pages-account-settings-notifications2"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections2",
+          "slug": "pages-account-settings-connections2"
+        }
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "menu": [
+      {
+        "url": "/",
+        "name": "Dashboards",
+        "icon": "menu-icon tf-icons mdi mdi-home-outline",
+        "slug": "dashboard",
+        "badge": [
+          "danger",
+          "1"
+        ],
+        "submenu": [
+          {
+            "url": "dashboard/analytics_org",
+            "name": "Analytics",
+            "slug": "dashboard-analytics_org"
+          }
+        ]
+      },
+  
+  
+  
+      {
+        "name": "User Management",
+        "icon": "menu-icon tf-icons mdi mdi-account-outline",
+        "slug": "aadhar-authentication",
+        "submenu": [
+          {
+            "url": "pages/users",
+            "name": "Users",
+            "slug": "pages-users"
+          },
+          {
+            "url": "pages/aadhar_report_page",
+            "name": "User Report",
+            "slug": "pages-aadhar_report_page"
+          }
+        ]
+      },
+      {
+        "name": "Reports",
+        "icon": "menu-icon tf-icons mdi mdi-account-outline",
+        "slug": "pages-account-settings1",
+        "submenu": [
+          {
+            "url": "pages/account-settings-account",
+            "name": "Aadhar",
+            "slug": "pages-account-settings-account1"
+          },
+          {
+            "url": "pages/account-settings-notifications",
+            "name": "Pan",
+            "slug": "pages-account-settings-notifications1"
+          },
+          {
+            "url": "pages/account-settings-connections",
+            "name": "Penny dropping",
+            "slug": "pages-account-settings-connections1"
+          }
+        ]
+      }
+      
+    ]
+  }
